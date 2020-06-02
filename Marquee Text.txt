@@ -1,0 +1,35 @@
+﻿--------------------------How To Add Marquee Text For Blogger--------------------------------
+
+<marquee>ADD YOUR TEXT HERE.</marquee>
+
+--------------If you want to add some background  colors then try this one:---------------------
+marquee bgcolor="#99ccff"
+
+-------------Move your text in many directions like, Left, right, up and down:
+For moving text left add:- direction="left"
+For moving text right add:- direction="right"
+For moving text up add:- direction="up"
+For moving text down add:- direction="down"
+
+---------------------------------------------Now stop the text when mouse is over the text:--------------------------------
+
+onmousedown="this.stop();" onmouseup="this.start();"
+
+Go on... click me (and hold the mouse down)!
+
+
+
+-----------------------Adding Links in The Scrolling Text:-----------------------------
+
+<a href="http://anutrickz.blogspot.com/">Anutrickz</a>
+
+
+---------------Scrolling Text Behavior---------------------
+behavior="alternate"
+behavior="slide"
+behavior="scroll"
+
+--------------Code For Scrolling Text With Speed Contol------------------------
+
+scrollamount="6"
+
